@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 300px;
+  background-color: #ffaa00;
+}
+
+main {
+  background-image: url("../img/10177393_602467719849502_222590004_n.jpg");
+  background-size: cover;
+}

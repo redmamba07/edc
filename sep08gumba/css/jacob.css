@@ -1,0 +1,85 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #22272e;
+	font-family: "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+	margin: ;
+}
+header {
+	background-color: #d79e42;
+	color: #6c0704;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 22em;
+	margin-bottom: 12px;
+}
+h1 {
+	margin: 2px 5px;
+	font-size: 70px;
+	padding-bottom: 10px;
+}
+h2 {
+	margin: 5px 5px;
+	font-size: 40px;
+	line-height: 1.99;
+	padding-top: 5px;
+}
+header, .hero, .foundation #img,
+#story, .footy {
+    border-top: 2px solid #e85151;
+	border-bottom: 2px solid #e85151;
+	border-left: 2px solid #e85151;
+	border-right: 2px solid #e85151;
+}
+.hero {
+	background-image: url(../img/geekacademy.jpg);
+	background-attachment: fixed;
+	background-size: ;
+	text-shadow: 2px solid #000000;
+	margin-top: -5px;
+	padding-left: 10px;
+}
+.hero h2, .hero h3 {
+	font-size: 80px;
+	margin: 29 auto;
+	text-align: center;
+	color: hsla(0, 0%, 0%, .05);
+}
+.hero p {
+	font-size: 30px;
+	line-height: 1.4;
+}
+#foundation img {
+	margin-left: 0px;
+	margin-top: 9px;
+	width: 100%;
+}
+img {
+	width: 100%;
+	height: auto;
+	margin: 8px 0;
+}
+#story {
+	color: #000000;
+	margin-top: 8px;
+	margin-bottom: 12px;
+	padding-left: 10px;
+	background-color: #d79e42;
+}
+#story::before, #story::after {
+	content: "";
+	clear: both;
+}
+.footy {
+	margin-top: 8px;
+}
+
+#img2 {
+	width: 30%;
+	height: auto;
+	margin: 8px auto;
+	margin-left: 182px;
+}

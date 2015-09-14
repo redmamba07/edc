@@ -1,0 +1,25 @@
+body {
+	width: 100%;
+	height: auto;
+	background-color: red;
+}
+div a {
+	display: inline-block;
+	background-color: hsla(180, 30%,60%,.25);
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	width: 20%;
+	text-align: center;
+	padding: 20px 10px;
+	margin: 50px auto 20px;
+	font-family: helvetica, arial, "sans-serif";
+	border-radius: 80px;
+	border: 1px solid hsla(180, 30%, 50%, 1);
+	text-transform: uppercase;
+	float: right;
+}
+a:hover {
+	color: ;
+	background-color: linear-gradient(left to right red blue);
+}

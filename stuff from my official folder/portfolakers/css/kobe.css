@@ -1,0 +1,44 @@
+main {
+	background-color: gold;
+
+}
+#carousel-example-generic {
+	background-color: gold;
+	height: 50%;
+	width: 80%;
+	margin: 0 auto;
+}
+#kbee1 img, #kbee2 img {
+	width: 706px;
+    height: 550px;
+    border-radius: 86px;
+    padding-bottom: 8px;
+    margin-left: 37px;
+}
+#kbee3 img, #kbee4 img, #kbee5 img {
+	width: 775px;
+    height: 568px;
+    border-radius: 210px;
+    padding-bottom: 28px;
+    margin-right: 100px;
+}
+#story  {
+	width: 100%;
+	height: 505px;
+	margin-bottom: 271px;
+	font-size: 1.5em;
+}
+.row {
+	padding-top: 20px;
+}
+.sld1 {
+	margin: 0 auto;
+	height: 75%; 
+	width: 1500px;
+	border-left: 50px;
+	border-right: 50px;
+	background-color: purple;
+}
+
+
+

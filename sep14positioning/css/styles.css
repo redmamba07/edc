@@ -1,0 +1,85 @@
+body {
+	background-color: #ceece5;
+	margin: 0;
+}
+.dice {
+	display: inline-block;
+	position: relative;
+	width: 18vw;
+	height: 18vw;
+	margin-top: 10px;
+	margin-left: 110px;
+	border-radius: 25px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;	
+	overflow: hidden;
+}
+.dice [id^="d"] { 
+	height: 100%;
+}
+#d1 {
+	background-color: #ff0000;
+}
+#d2 {
+	background-color: #0000ff;
+}
+#d3 {
+	background-color: #40ff00;
+}
+#d4 {
+	background-color: #ffff00;
+}
+#d5 {
+	background-color: #facc2e;
+}
+#d6 {
+	background-color: #fa4af1;
+}
+div::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.mid, .toplft, .midlft, .botmlft,
+.toprite, .midrite, .botmrite {
+	width: 15%;
+	height: auto;
+	position: absolute;
+	background-color: #d0cfcf;
+	border-radius: 23px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;
+}
+.toplft {
+	
+	top: 0;
+	left: 0;	
+}
+.midlft {
+	top: 42%;
+	left: 0;
+}
+.botmlft {
+	bottom: 0;
+	left: 0;
+}
+.mid {	
+	top: 38%;
+	right: 42%;
+}	
+.toprite {
+	top: 0;
+	right: 0;
+}
+.midrite {
+	top: 42%;
+	right: 0;	
+}
+.botmrite {
+	bottom: 0;
+	right: 0;
+}

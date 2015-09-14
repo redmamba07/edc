@@ -1,0 +1,153 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #22272e;
+	font-family: "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+	margin: ;
+}
+header {
+	background-color: #d79e42;
+	color: #6c0704;
+	border-top: 2px solid #e85151;
+	border-bottom: 2px solid #e85151;
+	border-left: 2px solid #e85151;
+	border-right: 2px solid #e85151;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 22em;
+	margin-bottom: 12px;
+}
+h1 {
+	margin: 2px 5px;
+	font-size: 70px;
+	padding-bottom: 10px;
+}
+h2 {
+	margin: 5px 5px;
+	font-size: 40px;
+	line-height: 1.99;
+	padding-top: 5px;
+}
+.hero {
+	background-image: url(../img/geekacademy.jpg);
+	background-attachment: fixed;
+	background-size: ;
+	text-shadow: 2px solid #000000;
+	border-top: 2px solid #e85151;
+	border-left: 2px solid #e85151;
+	border-right: 2px solid #e85151;
+	border-bottom: 2px solid #e85151;
+	margin-top: -5px;
+	padding-left: 10px;
+}
+.hero h2, .hero h3 {
+	font-size: 80px;
+	margin: 29 auto;
+	text-align: center;
+}
+.hero p {
+	font-size: 30px;
+	line-height: 1.4;
+}
+#foundation img {
+	margin-left: 0px;
+	margin-top: 9px;
+	width: 100%;
+	border-top: 2px solid #e85151;
+	border-left: 2px solid #e85151;
+	border-right: 2px solid #e85151;
+	border-bottom: 2px solid #e85151;
+}
+img {
+	width: 100%;
+	height: auto;
+	margin: 8px 0;
+	border-top: 2px solid #e85151;
+	border-left: 2px solid #e85151;
+	border-right: 2px solid #e85151;
+	border-bottom: 2px solid #e85151;
+}
+#story {
+	color: #000000;
+	border-top: 2px solid #e85151;
+	border-right: 2px solid #e85151;
+    border-left: 2px solid #e85151;
+	border-bottom: 2px solid #e85151;
+	margin-top: 8px;
+	margin-bottom: 12px;
+	height: 42em;
+	padding-left: 10px;
+	background-color: #d79e42;
+}
+#story::before, #story::after {
+	content: "";
+	clear: both;
+}
+#milk {
+	width: 45%;
+	height: 10em;
+	margin-top: -10px;
+	border-radius: 26px;
+}
+#img-lrg1 {
+	width: 50%;
+	height: 300px;
+	float: left;
+	margin-top: 33px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 30px;
+	border-top: 1px solid #e85151;
+	border-bottom: 1px solid #e85151;
+	border-right: 1px solid #e85151;
+    border-left: 1px solid #e85151;
+    border-radius: 26px;
+}
+#img-1sm1 {
+	width: 30%;
+	height: 230px;
+	float: left;
+	margin-right: 20px;
+	margin-top: -30px;
+	margin-left: 10px;
+	border-top: 1px solid hsla(0, 0%, 60%, 1);
+	border-bottom: 1px solid hsla(0, 0%, 60%, 1);
+	border-right: 1px solid hsla(0, 0%, 60%, 1);
+    border-left: 1px solid hsla(0, 0%, 60%, 1);
+    border-radius: 26px;
+}
+#img-2sm1 {
+	width: 30%;
+	height: 230px;
+	float: left;
+	margin-right: 20px;
+	margin-top: -30px;
+	margin-left: 10px;
+	border-top: 1px solid hsla(0, 0%, 60%, 1);
+	border-bottom: 1px solid hsla(0, 0%, 60%, 1);
+	border-right: 1px solid hsla(0, 0%, 60%, 1);
+    border-left: 1px solid hsla(0, 0%, 60%, 1);
+    border-radius: 26px;
+}
+#img-sm2 {
+    width: 42%;
+	height: 200px;
+	float: right;
+	margin-top: -108px ;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	border-top: 1px solid hsla(0, 0%, 60%, 1);
+	border-bottom: 1px solid hsla(0, 0%, 60%, 1);
+	border-right: 1px solid hsla(0, 0%, 60%, 1);
+    border-left: 1px solid hsla(0, 0%, 60%, 1);
+    border-radius: 26px;
+}
+#dv h4, a,
+footer p,a {
+	text-align: center;
+}
+
+
