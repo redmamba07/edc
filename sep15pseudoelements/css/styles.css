@@ -1,0 +1,83 @@
+.clock {
+	width: 100px;
+	height: 100px;
+	background-color: #27394e;
+	border: 5px solid #fa4af1;
+	border-radius: 100px;
+	left: calc(50% - 47px);
+    top: 45px;
+}
+.clock::before {
+	content: "";
+    display: block;
+    width: 47px;
+    height: 4px;
+    border: 2px solid #fa4af1;
+    background-color: #27394e;
+    border-radius: 4px;
+    position: relative;
+    left: calc(50% - 47px);
+    top: 45px;
+}
+.clock::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 23.5px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #27394e;
+    border: 2px solid #fa4af1;
+    left: 59px;
+    top: 58px;
+}
+.phone {
+	position: relative;
+	width: 300px;
+	height: 595px;
+	border: 2px solid #2e2e2e;
+	border-radius: 20px;
+}
+.phone::before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 4px;
+	border: 2px solid #2e2e2e;
+	border-radius: 4px;
+    position: absolute;
+    left: calc(50% - 27px);
+    top: 20px;
+}
+.phone::after {
+    content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	position: absolute;
+	border: 2px solid #2e2e2e;
+	left: calc(50% - 20px);
+	bottom: 5px;
+}
+.screen {
+	width: 280px;
+	height: 495px;
+	background-color: #2e2e2e;
+	background-image: url(http://3.bp.blogspot.com/-HjPyg6f3Hcc/UPXBT3TV5PI/AAAAAAAABe4/aiqDv75CpF4/s1600/Samsung+Galaxy+Nexus+Screenshots+-+02+-+02+-+Daily.png);
+	background-size: 100%;
+	margin: 50px 10px;
+}
+ul {
+	background-color: #088a08;
+	list-style: none;
+}
+ul::before, ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+ul li {
+	background-color: #40ff00;
+	float: left;
+}
